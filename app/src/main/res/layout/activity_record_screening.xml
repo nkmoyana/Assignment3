@@ -10,18 +10,18 @@
     <TextView
         android:id="@+id/tvNames"
         style="@style/names_text_View"
-        android:text="tv" />
+        android:text="" />
 
     <TextView
         android:id="@+id/tvGrade"
         style="@style/grade_text_View"
-        android:text="tv"
+        android:text=""
         />
 
     <TextView
         android:id="@+id/tvCode"
         style="@style/code_text_View"
-        android:text="tv"
+        android:text=""
         />
 
     <CheckBox
