@@ -55,7 +55,7 @@
                 android:id="@+id/tvContactWithCovidPeople"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days"
+                android:text="@string/did_you_have_contact_with_anyone_with_confirmed_covid_19_in_the_last_14_days"
                 android:textColor="#FFFFFF" />
 
             <TextView
@@ -69,7 +69,7 @@
                 android:id="@+id/tvHaveSymptoms"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days"
+                android:text="@string/do_you_have_symptoms_such_as_fever_cough_and_difficulty_breathing"
                 android:textColor="#FFFFFF"/>
 
             <TextView
