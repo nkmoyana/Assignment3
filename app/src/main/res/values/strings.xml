@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="login">Login</string>
+    <string name="school">School</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot password? Click here to reset</string>
+    <string name="enter_email_address">enter email address</string>
+    <string name="enter_password">enter password</string>
+    <string name="please_enter_your_school_name">please enter your school name</string>
+    <string name="please_enter_school_email_address">please enter school email address</string>
+    <string name="please_enter_your_password">please enter your password</string>
+    <string name="please_re_type_your_password">please re-type your password</string>
+    <string name="virus">virus</string>
+    <string name="scan_and_enter_data">Scan and enter data</string>
+    <string name="see_all_data_of_a_specific_learner">See all data of a specific learner</string>
+    <string name="new_learner">New learner</string>
+    <string name="enter_learner_name">enter learner name</string>
+    <string name="enter_learner_surname">enter learner surname</string>
+    <string name="enter_learner_s_grade">enter learner\'s grade</string>
+    <string name="submit_learner">Submit learner</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="submit">Submit</string>
+    <string name="enter_temperature">enter temperature</string>
+    <string name="do_you_have_symptoms_such_as_fever_cough_and_difficulty_breathing">Do you have symptoms such as fever, cough and difficulty breathing?</string>
+    <string name="did_you_have_contact_with_anyone_with_confirmed_covid_19_in_the_last_14_days">Did you have contact with anyone with confirmed COVID-19 in the last 14 days?</string>
+    <string name="did_you_travel_to_a_high_risk_country_in_the_last_14_days">Did you travel to a high risk country in the last 14 days?</string>
+    <string name="screening">Screening</string>
+</resources>

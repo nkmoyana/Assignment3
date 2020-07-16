@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".RecordScreening">
+
+    <TextView
+        android:id="@+id/tvNames"
+        style="@style/names_text_View"
+        android:text="tv" />
+
+    <TextView
+        android:id="@+id/tvGrade"
+        style="@style/grade_text_View"
+        android:text="tv"
+        />
+
+    <TextView
+        android:id="@+id/tvCode"
+        style="@style/code_text_View"
+        android:text="tv"
+        />
+
+    <CheckBox
+        android:id="@+id/highRiskCountry"
+        style="@style/checkbox"
+        android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days" />
+
+    <CheckBox
+        android:id="@+id/contactWithCovidPeople"
+        style="@style/checkbox"
+        android:text="@string/did_you_have_contact_with_anyone_with_confirmed_covid_19_in_the_last_14_days" />
+
+    <CheckBox
+        android:id="@+id/haveSymptoms"
+        style="@style/checkbox"
+        android:text="@string/do_you_have_symptoms_such_as_fever_cough_and_difficulty_breathing" />
+
+    <EditText
+        android:id="@+id/etTemp"
+        style="@style/temp_edit_text"
+        android:hint="@string/enter_temperature"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/button"
+        android:text="@string/submit" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="btn_margin_top">30dp</dimen>
+    <dimen name="screen_margin_top">40dp</dimen>
+    <dimen name="scan_margin_top">20dp</dimen>
+    <dimen name="scan_margin_bottom">20dp</dimen>
+    <dimen name="header_margin_top">200dp</dimen>
+    <dimen name="first_et_margin_top">30dp</dimen>
+    <dimen name="margin_start">30dp</dimen>
+    <dimen name="checkbox_margin_start">20dp</dimen>
+    <dimen name="temp_margin_start">70dp</dimen>
+    <dimen name="register_button_margin_start">5dp</dimen>
+    <dimen name="margin_end">30dp</dimen>
+    <dimen name="temp_margin_end">70dp</dimen>
+    <dimen name="screen_margin_end">40dp</dimen>
+    <dimen name="check_margin_end">20dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="image_margin_top">50dp</dimen>
+    <dimen name="login_button_margin_end">5dp</dimen>
+    <dimen name="header_text_size">45sp</dimen>
+    <dimen name="scan_text_size">24sp</dimen>
+    <dimen name="names_text_size">36sp</dimen>
+    <dimen name="grade_text_size">36sp</dimen>
+</resources>

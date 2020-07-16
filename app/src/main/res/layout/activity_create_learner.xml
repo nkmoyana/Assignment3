@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".CreateLearner">
+
+    <EditText
+        android:id="@+id/etLearnerName"
+        style="@style/email_edit_text2"
+        android:hint="@string/enter_learner_name"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etLearnerSurname"
+        style="@style/email_edit_text2"
+        android:hint="@string/enter_learner_surname"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etGrade"
+        style="@style/email_edit_text2"
+        android:hint="@string/enter_learner_s_grade"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvScan"
+        style="@style/scan_text"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/button"
+        android:text="@string/submit_learner" />
+
+</LinearLayout>

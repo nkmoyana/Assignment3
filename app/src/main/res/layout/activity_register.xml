@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/etSchoolName"
+        style="@style/name_edit_text"
+        android:hint="@string/please_enter_your_school_name"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etSchoolEmail"
+        style="@style/email_edit_text2"
+        android:hint="@string/please_enter_school_email_address"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/password_edit_text"
+        android:hint="@string/please_enter_your_password"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etRetype"
+        style="@style/password_edit_text"
+        android:hint="@string/please_re_type_your_password"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/button"
+        android:text="@string/register" />
+</LinearLayout>

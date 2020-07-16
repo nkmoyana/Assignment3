@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_margin="7dp"
+        app:cardUseCompatPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvTemp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="28sp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvHighRiskCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvHighRiskAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvContactWithCovidPeople"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvContactAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/tvHaveSymptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/did_you_travel_to_a_high_risk_country_in_the_last_14_days"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/tvHaveSymptomsAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

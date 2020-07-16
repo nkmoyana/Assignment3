@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/header_text"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/email_edit_text"
+        android:hint="@string/enter_email_address"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/password_edit_text"
+        android:hint="@string/enter_password"
+        android:autofillHints="" />
+
+    <LinearLayout
+        style="@style/horizontal_layout">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/login_button"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/register_button"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        style="@style/forgot_password"
+        />
+</LinearLayout>
