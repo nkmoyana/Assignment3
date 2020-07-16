@@ -22,4 +22,6 @@
     <dimen name="scan_text_size">24sp</dimen>
     <dimen name="names_text_size">36sp</dimen>
     <dimen name="grade_text_size">36sp</dimen>
+    <dimen name="date_text_size">30sp</dimen>
+    <dimen name="cardview_layout_margin">7dp</dimen>
 </resources>
