@@ -7,6 +7,34 @@
     android:background="@color/colorPrimaryLight"
     tools:context=".CreateLearner">
 
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:text="@string/loading_please_wait"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/login_form"
+        android:orientation="vertical">
+
     <EditText
         android:id="@+id/etLearnerName"
         style="@style/email_edit_text2"
@@ -22,7 +50,7 @@
     <EditText
         android:id="@+id/etGrade"
         style="@style/email_edit_text2"
-        android:hint="@string/enter_learner_s_grade"
+        android:hint="@string/enter_learners_grade"
         android:autofillHints="" />
 
     <TextView
@@ -33,5 +61,7 @@
         android:id="@+id/btnSubmit"
         style="@style/button"
         android:text="@string/submit_learner" />
+
+    </LinearLayout>
 
 </LinearLayout>

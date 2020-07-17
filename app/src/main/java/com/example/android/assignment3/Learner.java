@@ -1,11 +1,17 @@
 package com.example.android.assignment3;
 
-class Learner {
+import java.util.Date;
 
-    String name;
-    String surname;
-    String grade;
-    String code;
+public class Learner {
+
+    private String name;
+    private String surname;
+    private String grade;
+    private String code;
+    private String userEmail;
+    private String objectId;
+    private Date created;
+    private Date updated;
 
     public String getName() {
         return name;
@@ -37,5 +43,37 @@ class Learner {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public String getUserEmail() {
+        return userEmail;
+    }
+
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
+    }
+
+    public String getObjectId() {
+        return objectId;
+    }
+
+    public void setObjectId(String objectId) {
+        this.objectId = objectId;
+    }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+    public Date getUpdated() {
+        return updated;
+    }
+
+    public void setUpdated(Date updated) {
+        this.updated = updated;
     }
 }

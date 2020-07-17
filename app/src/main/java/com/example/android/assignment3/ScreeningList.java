@@ -11,5 +11,9 @@ public class ScreeningList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screening_list);
 
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setTitle(getString(R.string.screening_list));
+        }
+
     }
 }

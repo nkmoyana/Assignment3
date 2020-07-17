@@ -25,7 +25,7 @@
         android:text="@string/see_all_data_of_a_specific_learner" />
 
     <Button
-        android:id="@+id/btnNew"
+        android:id="@+id/btnNewLearner"
         style="@style/button"
         android:text="@string/new_learner" />
 </LinearLayout>

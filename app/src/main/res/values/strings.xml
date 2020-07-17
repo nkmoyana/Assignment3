@@ -16,7 +16,7 @@
     <string name="new_learner">New learner</string>
     <string name="enter_learner_name">enter learner name</string>
     <string name="enter_learner_surname">enter learner surname</string>
-    <string name="enter_learner_s_grade">enter learner\'s grade</string>
+    <string name="enter_learners_grade">enter learners grade</string>
     <string name="submit_learner">Submit learner</string>
     <string name="scan_barcode">Scan Barcode</string>
     <string name="submit">Submit</string>
@@ -25,4 +25,25 @@
     <string name="did_you_have_contact_with_anyone_with_confirmed_covid_19_in_the_last_14_days">Did you have contact with anyone with confirmed COVID-19 in the last 14 days?</string>
     <string name="did_you_travel_to_a_high_risk_country_in_the_last_14_days">Did you travel to a high risk country in the last 14 days?</string>
     <string name="screening">Screening</string>
+    <string name="loading_please_wait">Loading...please wait...</string>
+    <string name="please_enter_all_fields">Please enter all fields!</string>
+    <string name="make_sure_that_both_passwords_are_the_same">Make sure that both passwords are the same!</string>
+    <string name="busy_checking_credentials_please_wait">Busy checking credentials...please wait...</string>
+    <string name="logged_in_successfully">Logged in successfully!</string>
+    <string name="error">\"Error: \"</string>
+    <string name="user_successfully_registered">User successfully registered!</string>
+    <string name="logout">Logout</string>
+    <string name="user_signed_out_successfuly">User signed out successfully!</string>
+    <string name="busy_signing_out_please_wait">Busy signing you out...please wait...</string>
+    <string name="busy_sending_reset_instructions_to_email_address_please_wait">Busy sending reset instructions to email address...please wait...</string>
+    <string name="please_enter_the_email_address_related_to_the_account_you_want_to_reset_the_password_for">Please enter the email address related to the account you want to reset the password for.</string>
+    <string name="_a_reset_link_will_be_sent_to_the_email_address">\" A reset link will be sent to the email address.\"</string>
+    <string name="reset_instructions_sent_to_email_address">Reset instructions sent to email address!</string>
+    <string name="reset">RESET</string>
+    <string name="cancel">CANCEL</string>
+    <string name="login_school">Login School</string>
+    <string name="add_learner">Add Learner</string>
+    <string name="covid_scanner">Covid Scanner</string>
+    <string name="screening_list">Screening List</string>
+    <string name="new_learner_succssfully_saved">New learner successfully saved!</string>
 </resources>

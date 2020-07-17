@@ -5,7 +5,7 @@
     <dimen name="screen_margin_top">40dp</dimen>
     <dimen name="scan_margin_top">20dp</dimen>
     <dimen name="scan_margin_bottom">20dp</dimen>
-    <dimen name="header_margin_top">200dp</dimen>
+    <dimen name="header_margin_top">150dp</dimen>
     <dimen name="first_et_margin_top">30dp</dimen>
     <dimen name="margin_start">30dp</dimen>
     <dimen name="checkbox_margin_start">20dp</dimen>

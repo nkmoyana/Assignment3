@@ -35,7 +35,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/margin_start</item>
-        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginTop">@dimen/screen_margin_top</item>
         <item name="android:layout_marginEnd">@dimen/margin_end</item>
         <item name="android:ems">10</item>
         <item name="android:gravity">center_horizontal</item>
@@ -46,7 +46,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/margin_start</item>
-        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginTop">@dimen/scan_margin_top</item>
         <item name="android:layout_marginEnd">@dimen/margin_end</item>
         <item name="android:ems">10</item>
         <item name="android:gravity">center_horizontal</item>
@@ -79,7 +79,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">@dimen/margin_start</item>
-        <item name="android:layout_marginTop">@dimen/margin_top</item>
+        <item name="android:layout_marginTop">@dimen/margin_end</item>
         <item name="android:layout_marginEnd">@dimen/margin_end</item>
         <item name="android:orientation">horizontal</item>
     </style>
